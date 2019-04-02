@@ -1,0 +1,24 @@
+{
+  "name": "react-intro",
+  "version": "1.0.0",
+  "description": "Introduction to react with easy examples",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fonsi/react-intro.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "typescript"
+  ],
+  "author": "@fonsirs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fonsi/react-intro/issues"
+  },
+  "homepage": "https://github.com/fonsi/react-intro#readme"
+}
