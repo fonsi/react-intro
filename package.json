@@ -1,24 +1,42 @@
 {
-  "name": "react-intro",
-  "version": "1.0.0",
-  "description": "Introduction to react with easy examples",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fonsi/react-intro.git"
-  },
-  "keywords": [
-    "react",
-    "redux",
-    "typescript"
-  ],
-  "author": "@fonsirs",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fonsi/react-intro/issues"
-  },
-  "homepage": "https://github.com/fonsi/react-intro#readme"
+    "name": "react-intro",
+    "version": "1.0.0",
+    "description": "Introduction to react with easy examples",
+    "main": "index.html",
+    "scripts": {
+        "start-hello-world": "parcel src/hello-world/index.html",
+        "start-function-component": "parcel src/function-component/index.html",
+        "start-class-component": "parcel src/class-component/index.html",
+        "start-timer": "parcel src/timer/index.html",
+        "start-redux": "parcel src/redux/index.html",
+        "start-hooks": "parcel src/hooks/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fonsi/react-intro.git"
+    },
+    "keywords": [
+        "react",
+        "redux",
+        "typescript"
+    ],
+    "author": "@fonsi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fonsi/react-intro/issues"
+    },
+    "homepage": "https://github.com/fonsi/react-intro#readme",
+    "dependencies": {
+        "@types/react-redux": "^7.0.6",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-redux": "^6.0.1",
+        "redux": "^4.0.1"
+    },
+    "devDependencies": {
+        "@types/react": "^16.8.10",
+        "@types/react-dom": "^16.8.3",
+        "parcel-bundler": "^1.12.3",
+        "typescript": "^3.4.1"
+    }
 }
